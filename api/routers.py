@@ -12,9 +12,6 @@ from api.services import (
 
 
 projects_router = APIRouter()
-# subjects_router = APIRouter()
-# samples_router = APIRouter()
-# treatments_router = APIRouter()
 user_stories_router = APIRouter()
 
 

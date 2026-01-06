@@ -3,6 +3,7 @@
 # install brew
 echo "Installing brew"
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+echo 'export PATH="/opt/homebrew/opt/postgresql@17/bin:$PATH"' >> ~/.zshrc
 
 # dependency 1: git
 brew install git
@@ -10,7 +11,6 @@ brew install git
 # dependency 2: postgresql@17
 brew install postgresql@17
 brew cleanup
-echo 'export PATH="/opt/homebrew/opt/postgresql@17/bin:$PATH"' >> ~/.zshrc
 
 # dependency 3: pyenv
 brew install pyenv
