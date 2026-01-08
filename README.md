@@ -1,5 +1,5 @@
 # teiko-demo
-This demo app consists of a small database, api, and minimal data analyses, implemented in Python and PostgreSQL. Minimal HTML/CSS provides user interface, though a full frontend is currently out of scope. It was created as part of a [technical challenge](https://forms.gle/HAKtRmXipzwR29EJ8) by Teiko.
+Demo app consisting of a small database, api, and minimal data analyses, implemented in Python and PostgreSQL. Minimal HTML/CSS provides user interface, though a full frontend is currently out of scope. Created as part of a [technical challenge](https://forms.gle/HAKtRmXipzwR29EJ8) by Teiko.
 
 ## How to run the code
 
