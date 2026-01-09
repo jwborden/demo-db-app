@@ -15,7 +15,7 @@ def analysis_html(
       <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>Teiko Demo - Statistical Analysis (PBMC/Melanoma/Miraclib)</title>
+        <title>Demo - Statistical Analysis (PBMC/Melanoma/Miraclib)</title>
         <style>
           html, body {{
               width: 100%;
@@ -126,7 +126,7 @@ def analysis_html(
       </head>
       <body>
           <header>
-            <h1>Teiko Demo - Statistical Analysis (PBMC/Melanoma/Miraclib)</h1>
+            <h1>Demo - Statistical Analysis (PBMC/Melanoma/Miraclib)</h1>
           </header>
           <nav>
             <ul>
@@ -172,11 +172,11 @@ def eg_html() -> str:
     out = """
     <html>
       <head>
-        <title>Teiko Demo</title>
+        <title>Demo</title>
       </head>
       <body>
-        <h1>Teiko Demo Service</h1>
-        <p>This is a basic HTML response from the Teiko Demo Service.</p>
+        <h1>Demo Service</h1>
+        <p>This is a basic HTML response from the Demo Service.</p>
       </body>
     </html>
     """
@@ -191,7 +191,7 @@ def overview_html(df_html: str) -> str:
       <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>Teiko Demo - Data Overview</title>
+        <title>Demo - Data Overview</title>
         <style>
           html, body {{
               width: 100%;
@@ -243,7 +243,7 @@ def overview_html(df_html: str) -> str:
       </head>
       <body>
           <header>
-            <h1>Teiko Demo - Data Overview</h1>
+            <h1>Demo - Data Overview</h1>
           </header>
           <main>
             <section>
@@ -271,7 +271,7 @@ def subset_html(
       <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>Teiko Demo - Data Subset Analysis (PBMC/Melanoma/Miraclib/Baseline)</title>
+        <title>Demo - Data Subset Analysis (PBMC/Melanoma/Miraclib/Baseline)</title>
         <style>
           html, body {{
               width: 100%;
@@ -382,7 +382,7 @@ def subset_html(
       </head>
       <body>
           <header>
-            <h1>Teiko Demo - Data Subset Analysis (PBMC/Melanoma/Miraclib/Baseline)</h1>
+            <h1>Demo - Data Subset Analysis (PBMC/Melanoma/Miraclib/Baseline)</h1>
           </header>
           <nav>
             <ul>

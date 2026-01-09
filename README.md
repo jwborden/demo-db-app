@@ -6,8 +6,8 @@ Demo app consisting of a small database, api, and minimal data analyses, impleme
 ### Clone the repository
 Use GitHub to access the repository.
 ```sh
-git clone https://github.com/jwborden/teiko-demo.git
-cd teiko-demo
+git clone https://github.com/jwborden/demo-db-app.git
+cd demo-db-app
 ```
 
 ### Requirements and dependencies
@@ -49,8 +49,8 @@ This repository contains a minimal app with the following:
 I designed the app with this organization and these tools to optimize organization and scalability. I considered building a single Python GUI app (e.g., PyQt), or organizing my api with more files, each containing one model, as in a larger project, but settled on this structure for a balance of organization and simplicity. Notably, I kept the client minimal, with a static landing page in HTML and api endpoints that return HTML content for dashboard pages. In a larger or longer-term project I may have used Vue and JavaScript to streamline visualization, etc., but this structure allowed me to take advantage of .to_html() methods in Python Pandas and Plotly, allowing greater simplicity without additional dependencies for Vue, npm, etc.
 
 ### TL;DR
-- `git clone https://github.com/jwborden/teiko-demo.git`
-- `cd teiko-demo`
+- `git clone https://github.com/jwborden/demo-db-app.git`
+- `cd demo-db-app`
 - `./get-os-deps.sh` (If needed -- review your machine's setup for Python3.13 and Postgres)
 - `./venv-setup.sh`
 - `./db-setup.sh` (`./db-delete.sh` when you finish)
